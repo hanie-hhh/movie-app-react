@@ -59,7 +59,7 @@ export const Title = styled(Typography)(({ theme }) => ({
   fontWeight: 500,
   zIndex: 3,
   textShadow: "2px 2px 8px rgba(0, 0, 0, 0.7)",
-      fontSize: "2.5rem",
+      fontSize: "2rem",
        
 
   [theme.breakpoints.up("sm")]: {

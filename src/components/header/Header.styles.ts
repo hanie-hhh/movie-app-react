@@ -11,7 +11,7 @@ interface LinkComponentProps extends LinkProps {
 export const HeaderContainer = styled(Box)(({ theme }) => ({
   display: "flex",
   flexDirection: "row",
-  padding: "2rem 2rem",
+  padding: "0.5rem 0.5rem",
   alignItems: "flex-start",
   justifyContent: "space-between",
   [theme.breakpoints.up("sm")]: {
@@ -66,8 +66,8 @@ export const RightSection = styled(Box)(({ theme }) => ({
 }));
 
 export const NavButton = styled(Button)<LinkComponentProps>(({ theme }) => ({
-  fontSize: "0.7rem",
-  padding: "0.5rem 1rem",
+  fontSize: "0.5rem",
+  padding: "0.5rem 0.5rem",
   borderRadius: "1.5rem",
   backgroundColor: "rgba(74, 71, 67, 0.6)",
   color: "white",

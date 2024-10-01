@@ -1,4 +1,4 @@
-import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
+import { Route, HashRouter as Router, Routes } from "react-router-dom";
 
 import FavoritesPage from "./pages/FavoritesPage";
 import HomePage from "./pages/HomePage";
@@ -11,6 +11,7 @@ import { ThemeProvider } from "@mui/material/styles";
 import { configureStore } from "@reduxjs/toolkit";
 import rootReducer from "./hook/redux/Reducers";
 import theme from "./theme";
+// import { HashRouter as Router } from "react-router-dom";
 
 const store = configureStore({ reducer: rootReducer });
 
