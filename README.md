@@ -18,7 +18,7 @@ This is a React-based web application that allows users to search and view popul
 
 ## Live Demo
 
-Check out the live demo: [Live Demo Link](#)
+Check out the live demo: [[Live Demo Link]](https://hanie-hhh.github.io/movie-app-react/)(#)
 
 ## Installation
 
