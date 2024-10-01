@@ -87,6 +87,8 @@ Make sure you have the following installed:
 - **React Router**: For handling navigation in the app.
 - **React Hooks**: For state management and lifecycle methods.
 - **Axios**: For making API requests.
+- **Redux**: For state managment.
+
 
 ## Folder Structure
 
